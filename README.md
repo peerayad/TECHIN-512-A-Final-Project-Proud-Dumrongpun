@@ -13,16 +13,26 @@ It includes a centered 10×16 playfield, intro animation, difficulty menu, accel
 ├── src/
 │   └── code.py
 │
-├── library/
-│   ├── adafruit_adxl34x/
-│   ├── adafruit_displayio_ssd1306/
-│   ├── adafruit_display_text/
+├── Libraries/
 │   ├── adafruit_bus_device/
+│   │   ├── __init__.py
+│   │   ├── i2c_device.mpy
+│   │   └── spi_device.mpy
+│   │
+│   ├── adafruit_display_text/
+│   │   ├── __init__.mpy
+│   │   ├── bitmap_label.mpy
+│   │   ├── label.mpy
+│   │   ├── outlined_label.mpy
+│   │   ├── scrolling_label.mpy
+│   │   └── text_box.mpy
+│   │
+│   ├── adafruit_adxl34x.mpy
+│   ├── adafruit_displayio_ssd1306.mpy
 │   └── neopixel.mpy
 │
 ├── Documentation/
-│   ├── Block Diagram.pdf
-│   ├── CircuitDiagram.png
+│   ├── Circuit diagram picture.png
 │   └── getting-started.kicad_sch
 │
 └── README.md
